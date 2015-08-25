@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.serialportsdemo.MainActivity"
+    tools:ignore="MergeRootFrame"
+    android:orientation="vertical"
+     >
+    <EditText 
+        android:id="@+id/et_Receive"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="接收区~~~"
+        />
+    
+    <EditText 
+        android:id="@+id/et_send"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:hint="发送区~~~"
+        />
+     <Button 
+         android:id="@+id/btn_send"
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:text="发送数据"
+         />
+</LinearLayout>
